@@ -1,0 +1,41 @@
+[{
+  "_id": {
+    "$oid": "6471e1648661253a93967d07"
+  },
+  "name": "Atif Iqbal",
+  "nickName": "EnderDragon",
+  "age": 22,
+  "publicKey": "1",
+  "friends": [],
+  "friendRequests": []
+},{
+  "_id": {
+    "$oid": "6471e1948661253a93967d09"
+  },
+  "name": "Abdul Rehman",
+  "nickName": "Developer",
+  "age": 22,
+  "publicKey": "2",
+  "friends": [],
+  "friendRequests": []
+},{
+  "_id": {
+    "$oid": "6471e1aa8661253a93967d0b"
+  },
+  "name": "Taimoor Ahmad",
+  "nickName": "Timmy",
+  "age": 22,
+  "publicKey": "3",
+  "friends": [],
+  "friendRequests": []
+},{
+  "_id": {
+    "$oid": "6471e1cb8661253a93967d0d"
+  },
+  "name": "Kamran",
+  "nickName": "kami",
+  "age": 22,
+  "publicKey": "4",
+  "friends": [],
+  "friendRequests": []
+}]

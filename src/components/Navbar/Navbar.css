@@ -1,0 +1,194 @@
+.navbar {
+    height: 75px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.logo {
+    width: 152px;
+    height: 45px;
+}
+
+.middle-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+
+    width: 426px;
+    height: 36px;
+    position: relative;
+    left: 70px;
+}
+
+.middle-nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.middle-nav li {
+    padding: 25px;
+}
+
+.middle-nav a {
+    display: flex;
+    align-items: center;
+    color: black;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.middle-nav a:hover {
+    color: peru;
+}
+
+.middle-nav i {
+    font-size: 20px;
+}
+
+.parent {
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    overflow: hidden;
+}
+
+.vertical-bar {
+    position: relative;
+    transform: rotate(90deg);
+    left: 15px
+}
+
+.search-bar {
+    /* position: relative; */
+    width: 210px;
+    height: 44px;
+    /* left: 1033px; */
+
+    background: #F6F6F6;
+    border-radius: 20px 0 0 20px;
+    border-style: none;
+    outline: none;
+    padding: 15px;
+
+    
+}
+
+  
+
+.search-icon {
+    width: 50px;
+    height: 44px;
+    padding: 10px 15px;
+    color: black;
+    font-weight: normal;
+
+    background: rgba(12, 65, 149, 0.46);
+    border-radius: 0px 18px 18px 0px;
+}
+
+
+
+/* Navbar styles for screens up to 600px wide */
+@media (max-width: 600px) {
+.navbar {
+flex-direction: column;
+height: auto;
+padding: 10px;
+}
+
+.logo {
+margin-bottom: 20px;
+}
+
+.middle-nav {
+width: 100%;
+left: 0;
+}
+
+.middle-nav li {
+padding: 10px;
+}
+
+.parent {
+margin-top: 20px;
+flex-direction: column;
+align-items: center;
+left: 0;
+}
+
+.vertical-bar {
+display: none;
+}
+
+.search-bar {
+width: 100%;
+border-radius: 20px;
+margin-bottom: 10px;
+}
+
+.search-icon {
+width: 100%;
+height: auto;
+border-radius: 20px;
+text-align: center;
+}
+}
+
+/* Navbar styles for screens between 600px and 1024px wide */
+@media (min-width: 601px) and (max-width: 1024px) {
+.middle-nav {
+width: auto;
+left: 0;
+}
+
+.parent {
+left: 0;
+}
+
+.search-bar {
+width: 200px;
+border-radius: 20px 0 0 20px;
+margin-bottom: 0;
+}
+
+.search-icon {
+width: 50px;
+border-radius: 0 20px 20px 0;
+}
+}
+
+/* Navbar styles for screens wider than 1024px */
+@media (min-width: 1025px) {
+.navbar {
+justify-content: space-evenly;
+}
+
+.middle-nav {
+width: 426px;
+left: 70px;
+}
+
+.parent {
+left: 30px;
+}
+
+.search-bar {
+width: 210px;
+border-radius: 20px 0 0 20px;
+}
+
+.search-icon {
+width: 50px;
+border-radius: 0 18px 18px 0;
+}
+}
+
+.navbar ul li.active a {
+    color: blue;
+  }
+  

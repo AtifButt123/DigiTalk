@@ -1,0 +1,19 @@
+.quicks {
+
+    border: none;
+    /* width: 95%; */
+    /* border-radius: 1rem;; */
+}
+
+.quicks-container {
+    border-radius: 1rem;
+    /* border: 1px solid black; */
+    background: linear-gradient(250.16deg, #FFFFFF 2.51%, rgba(213, 241, 255, 0.54) 96.8%);
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.quicks-options {
+    padding: 15px;
+}
